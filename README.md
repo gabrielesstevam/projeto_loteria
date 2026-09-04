@@ -1,6 +1,6 @@
-<h1 style="text-align: center">Simulador de Loteria</h1> 
+<h1 align=center>Simulador de Loteria</h1> 
 
-> <h6 style="text-align: center">Projeto universitário desenvolvido para fins avaliativos, com o objetivo de criar um jogo de loteria utilizando Python e a biblioteca Tkinter.</h6>
+<h6 align=center>Projeto universitário desenvolvido para fins avaliativos, com o objetivo de criar um jogo de loteria utilizando Python e a biblioteca Tkinter.</h6>
 
 > <h2>Sumário</h2>
 
@@ -14,7 +14,7 @@
 5. Execução
 6. Como utilizar o sistema
 
-> <h2>1. Desenvolvedores >>></h2>
+> <h2>1. Desenvolvedores</h2>
 
 - *Alana Kelly Basilio da Silva* <br>
 - *Alex Bruno Ramos Ferreira* <br>
@@ -22,7 +22,7 @@
 - *Isac Emanuel da Silva Costa* <br>
 - *Izaias Rodrigues Dantas* <br>
 
-> <h2>2. Funcionalidades >>></h2>
+> <h2>2. Funcionalidades</h2>
 
 - *Geração de números aleatórios* <br>
 - *Registro de múltiplas apostas* <br>
@@ -32,20 +32,20 @@
 - *Armazenamento de dados em arquivos csv* <br>
 - *Interface gráfica*
 
-> <h2>3. Tecnologias Utilizadas >>></h2>
+> <h2>3. Tecnologias Utilizadas</h2>
 
 - `Python 3.14.6` <br>
 - `Bibliotecas {Tkinter, Random, csv e os}`
 - `Git`
 - `VScode`
 
-> <h2>4. Requisitos/Instalações >>></h2>
+> <h2>4. Requisitos/Instalações</h2>
 
 Antes de rodar o projeto, é importante que tenha o `Python` e o `Tkinter` instalado na sua máquina. Caso não os tenha, siga o passo a passo.
 
 Bibliotecas como `Random`, `csv` e `os` não necessitam de instalação individual, são bibliotecas nativas do `Python`.
 
-> <h3>4.1. Python >>></h3>
+> <h3>4.1. Python</h3>
 
 1. Acesse o site oficial para instalar o `Python` : [Acesse aqui](https://www.python.org/Downloads/).
 
@@ -63,7 +63,7 @@ python3 --version
 ```
 6. Após inserir a linha de comando, se você recebeu como resposta o número da versão como (`Python 3.14.6`), a instalação foi concluída com sucesso.
 
-> <h3>4.2. Tkinter >>></h3>
+> <h3>4.2. Tkinter</h3>
 
 1. O `tkinter` geralmente já vem junto com o `Python` no `Windows` e no `Mac`. Para verificar, digite no terminal:
 
@@ -92,13 +92,13 @@ sudo dnf install python3-tkinter
 ```bash
 sudo pacman -S tk
 ```
-> <h3>4.3. Arquivos do sistema >>></h3>
+> <h3>4.3. Arquivos do sistema</h3>
 
 É possível obter os arquivos do sistema de duas formas
 1. Clonagem do repositório
 2. Baixando manualmente os arquivos do sistema
 
-> <h3>4.3.1. Clonagem do repositório >>></h3>
+> <h3>4.3.1. Clonagem do repositório</h3>
 
 1. Acesse o link oficial para instalar o `git` : [Acesse aqui](https://git-scm.com/install/).
 
@@ -126,7 +126,7 @@ cd Downloads
 
 git clone https://github.com/disciplina-ilp/projeto-grupo_01-alana_alex_gabriel_isac_izaias.git
 ```
-> <h3>4.3.2. Baixando manualmente os arquivos >>></h3>
+> <h3>4.3.2. Baixando manualmente os arquivos</h3>
 
 1. Nesta mesma página, suba a tela e clique em `Code`, e logo depois, clique em `Download Zip`
 2. Os arquivos do sistema serão baixados automaticamente, em uma pasta zip
@@ -135,11 +135,11 @@ git clone https://github.com/disciplina-ilp/projeto-grupo_01-alana_alex_gabriel_
        1. Após extrair os arquivos, entre na pasta que foi criada, selecione a única pasta, e pressione `Control + X`
        2. Retorne para pasta de Downloads, pressione `Control + V`, e depois disso, exclua o arquivo ZIP, e a pasta que ficou vazia.
 
-> <h2>5. Execução >>></h2>
+> <h2>5. Execução</h2>
 
 1. Entre na pasta de Download do Explorador de Arquivos e execute o arquivo `Interface_tkinter.py`
 
-> <h2>6. Como utilizar o sistema >>></h2>
+> <h2>6. Como utilizar o sistema</h2>
 
 1. Informe os usuários que irão participar, informando o nome dos usuários e os números apostados. Ao final de cada atribuição de usuário, clique em `Adicionar Aposta`, para salvar no histórico.
 
